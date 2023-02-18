@@ -98,4 +98,87 @@ $(".subSent").click(function () {
   //     return false
   //   }
   // }
+
+  if ($(".q6:checked").length == "") {
+    alert("6. โดยปกติ ท่านกินอาหารรสจัด (หวานจัด เค็มจัด มันจัด)")
+    $("#q6_1").focus()
+    return false
+  }
+  if ($(".q7:checked").length == "") {
+    alert("7. โดยปกติ ท่านกินผัก หรือ ผลไม้")
+    $("#q7_1").focus()
+    return false
+  }
+   if ($(".q8:checked").length == "") {
+    alert("8. โดยปกติ ท่านเล่นหวย พนัน ")
+    $("#q8_1").focus()
+    return false
+  }
+   if ($(".q9:checked").length == "") {
+    alert("9. โดยปกติ ท่านออกกำลังกาย (อย่างน้อย 30 นาที)")
+    $("#q9_1").focus()
+    return false
+  }
+   if ($(".q10:checked").length == "") {
+    alert("10. โดยปกติ ท่านสูบบุหรี่/ บุหรี่ไฟฟ้า")
+    $("#q10_1").focus()
+    return false
+  }
+   if ($(".q11:checked").length == "") {
+    alert("11. โดยปกติ ท่านดื่มเครื่องดื่มที่มีแอลกอฮอล์")
+    $("#q11_1").focus()
+    return false
+  }
+   if ($(".q12:checked").length == "") {
+    alert("12. โดยรวมแล้ว ท่านมีความเครียด")
+    $("#q12_1").focus()
+    return false
+  }
+  if ($(".q13:checked").length == "") {
+    alert("13. โดยรวมแล้ว ท่านให้การช่วยเหลือแก่คนรอบข้างหรือไม่")
+    $("#q13_1").focus()
+    return false
+  }
+  if ($(".q14:checked").length == "") {
+    alert("14. โดยรวมแล้ว ท่านตอบแทนผู้มีพระคุณหรือช่วยเหลือท่านหรือไม่")
+    $("#q14_1").focus()
+    return false
+  }
+  if ($(".q15:checked").length == "") {
+    alert("15. โดยรวมแล้ว ท่านมีความสุขกับครอบครัวของท่านหรือไม่")
+    $("#q15_1").focus()
+    return false
+  }
+  if ($(".q16:checked").length == "") {
+    alert("16. โดยรวมแล้ว ท่านใช้ชีวิตในสังคมอย่างมีความสุขหรือไม่")
+    $("#q16_1").focus()
+    return false
+  }
+  if ($(".q17:checked").length == "") {
+    alert("17. โดยรวมแล้ว ท่านทำงานอย่างมีความสุขหรือไม่")
+    $("#q17_1").focus()
+    return false
+  }
+  if ($(".q18:checked").length == "") {
+    alert("18. โดยรวมแล้ว ท่านพัฒนาตนเองเพื่อความก้าวหน้าในชีวิตหรือไม่")
+    $("#q18_1").focus()
+    return false
+  }
+  if ($(".q19:checked").length == "") {
+    alert("19. โดยรวมแล้ว การผ่อนชำระหนี้สินต่าง ๆ")
+    $("#q19_1").focus()
+    return false
+  }
+  if ($(".q20:checked").length == "") {
+    alert("20. ในแต่ละวัน ท่านทำงานอย่างมีเป้าหมายหรือไม่")
+    $("#q20_1").focus()
+    return false
+  }
+  if ($(".q21:checked").length == "") {
+    alert("21. โดยเฉลี่ยใน 1 สัปดาห์ ท่านสามารถจัดการชั่วโมงการทำงาน")
+    $("#q21_1").focus()
+    return false
+  }
+
+
 })
