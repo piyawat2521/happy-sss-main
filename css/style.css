@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+
+.indexText {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 25vh;
+  padding: 0 2rem;
+}
+
+.topHead {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 13rem;
+}
+
+.boxMain {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0.6rem 2rem 1rem 2rem;
+  border: 1pt solid #e0dfdf;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.titleText {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.awText {
+  display: block;
+  padding-left: 1rem;
+  line-height: 30px;
+}
+
+.imgBox {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: -3rem;
+}
+
+.imgBox img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1023px) {
+  .headText h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .indexText {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 25vh;
+    padding: 0 2rem;
+  }
+
+  .topHead {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+  }
+
+  .boxMain {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0.6rem 2rem 1rem 2rem;
+    border: 1pt solid #e0dfdf;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .titleText {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .awText {
+    display: block;
+    padding-left: 1rem;
+    line-height: 30px;
+  }
+
+  .imgBox {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: -3rem;
+  }
+
+  .imgBox img {
+    width: 100%;
+    height: auto;
+  }
+}
