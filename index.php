@@ -1,3 +1,9 @@
+<?php
+$date = date("dmYHis");
+$ex = md5($date);
+$_SESSION["code"] = $ex;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,16 +23,22 @@
 
     <div class="container">
         <div class="col-md-12">
+
             <div class="indexText">
-                แบบสํารวจความสุขด้วยตนเอง: HAPPINOMETER <br> ความสุขวัดเองได้ <br> สถาบันวิจัยประชากรและสังคม มหาวิทยาลัยมหิดล
+                <div class="code" style="text-align: right; font-size: 12px;margin-bottom: 1rem;">ID: <?= $_SESSION["code"] ?></div>
+                แบบสำรวจแฮปปีโนมิเตอร์: สุขภาวะและความอยู่ดีมีสุข<br>
+                HAPPINOMETER: Health & Wellness Survey <br>
+                ศูนย์วิจัยความสุขคนทำงานแห่งประเทศไทย <br>
+                สถาบันวิจัยประชากรและสังคม มหาวิทยาลัยมหิดล
+
                 <br><br>
-                <a class="btn btn-primary" href="page.php" role="button">เริ่มทำแบบสํารวจความสุข</a>
+                <a class="btn btn-primary" href="page2.php" role="button">เริ่มทำแบบสํารวจความสุข</a>
             </div>
 
         </div>
     </div>
 
-
+    <?php include 'title/footer.php'; ?>
 </body>
 
 </html>

@@ -59,6 +59,54 @@
   height: auto;
 }
 
+.sumq {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+.sumShowText {
+  display: block;
+  width: 50%;
+  height: auto;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+}
+.showimg {
+  display: block;
+  width: 80px;
+  height: auto;
+  margin: auto;
+}
+
+.showimg img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: cadetblue;
+  color: rgb(4, 4, 4);
+  text-align: center;
+  margin-top: 10rem;
+  padding: 2rem 0;
+}
+
+.footterText {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
 @media only screen and (max-width: 1023px) {
   .headText h4 {
     font-size: 20px;

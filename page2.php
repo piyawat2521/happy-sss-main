@@ -282,19 +282,19 @@
                             <div class="awText">
                                 <div class="mb-3 row" style="padding-left: 1rem;">
                                     ท่านมีน้ำหนัก
-                                    <input type="number" class="form-control age" style="width: 100px; margin: 0 1rem" name="weight" min="0" max="999"> กิโลกรัม
+                                    <input type="number" class="form-control weight" style="width: 100px; margin: 0 1rem" name="weight" min="0" max="999"> กิโลกรัม
                                 </div>
                             </div>
                             <div class="awText">
                                 <div class="mb-3 row" style="padding-left: 1rem;">
                                     ส่วนสูง
-                                    <input type="number" class="form-control age" style="width: 100px; margin: 0 1rem" name="height" min="0" max="999"> เซนติเมตร
+                                    <input type="number" class="form-control height" style="width: 100px; margin: 0 1rem" name="height" min="0" max="999"> เซนติเมตร
                                 </div>
                             </div>
                             <div class="awText">
                                 <div class="mb-3 row" style="padding-left: 1rem;">
                                     เส้นรอบเอว
-                                    <input type="number" class="form-control age" style="width: 100px; margin: 0 1rem" name="waist" min="0" max="999"> นิ้ว
+                                    <input type="number" class="form-control waist" style="width: 100px; margin: 0 1rem" name="waist" min="0" max="999"> นิ้ว
                                 </div>
                             </div>
                         </div>
@@ -752,13 +752,7 @@
                     </label>
                 </div>
 
-                <!----พี่เอกหนูใส่ตามที่เลขข้อในword นะคะ   ---->
-                <div class="form-check">
-                    <input class="form-check-input q17" name="q17" type="radio" value="9" id="q17_9">
-                    <label class="form-check-label" for="q17_9">
-                        9 ไม่ได้ทำงาน/ ว่างงาน
-                    </label>
-                </div>
+
 
             </div>
         </div>
@@ -872,13 +866,7 @@
                     </label>
                 </div>
 
-                <!----พี่เอกหนูใส่ตามที่เลขข้อในword นะคะ   ---->
-                <div class="form-check">
-                    <input class="form-check-input q20" name="q20" type="radio" value="9" id="q20_9">
-                    <label class="form-check-label" for="q20_9">
-                        9 ไม่ได้ทำงาน/ ว่างงาน
-                    </label>
-                </div>
+
 
             </div>
         </div>
@@ -916,13 +904,6 @@
                         5 มากที่สุด
                     </label>
                 </div>
-                <!----พี่เอกหนูใส่ตามที่เลขข้อในword นะคะ   ---->
-                <div class="form-check">
-                    <input class="form-check-input q21" name="q21" type="radio" value="9" id="q21_9">
-                    <label class="form-check-label" for="q21_9">
-                        9 ไม่ได้ทำงาน/ ว่างงาน
-                    </label>
-                </div>
 
             </div>
         </div>
@@ -951,6 +932,9 @@
 
     </div>
     </div>
+    <div class="" style="margin-bottom: 15rem;"></div>
+
+    <?php include 'title/footer.php'; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="js/checkPage.js"></script>
 

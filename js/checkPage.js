@@ -44,60 +44,76 @@ $(document).ready(function () {
 })
 
 $(".subSent").click(function () {
-  //   if ($(".sex:checked").length == "") {
-  //     alert("1.เพศ")
-  //     $(".sex").focus()
-  //     return false
-  //   }
-  //   if ($(".age").val() == "") {
-  //     alert("2. อายุ")
-  //     $(".age").focus()
-  //     return false
-  //   }
-  //   if ($(".q3:checked").length == "" && $(".q3_9t:checked").length == "") {
-  //     alert("3. สำเร็จการศึกษาสูงสุดในระดับใด")
-  //     $("#q3_1").focus()
-  //     return false
-  //   }
-  //   if ($(".q3_9t:checked").length != "" && $(".q3t").val() == "") {
-  //     alert("อื่น ๆ ระบุ..........")
-  //     $("#q3_9").focus()
-  //     return false
-  //   }
-  // if ($(".q4:checked").length == "") {
-  //   alert("4. ปัจจุบันท่านมีงานทำหรือไม่")
-  //   $("#q4_1").focus()
-  //   return false
-  // }
-  // if ($("#q4_1c").val() == 1 && $("#q4_1c:checked").length != "") {
-  //   if ($(".q4_1:checked").length == "" && $(".q4_1t:checked").length == "") {
-  //     alert("4.1 ปัจจุบันท่านทำงานอยู่ในภาคส่วนใด")
-  //     $("#q4_1_1").focus()
-  //     return false
-  //   }
-  //   if ($(".q4_1t:checked").length != "" && $("#q4_1t").val() == "") {
-  //     alert("อื่น ๆ ระบุ..........")
-  //     $("#q4_1_8").focus()
-  //     return false
-  //   }
-  // }
-  // if ($("#q4_2c").val() == 2 && $("#q4_2c:checked").length != "") {
-  //   if ($(".q4_2:checked").length == "" && $(".q4_2t:checked").length == "") {
-  //     alert("4.2 ไม่ได้ทำงาน (ว่างงาน) เหตุผลที่ไม่ได้ทำงาน")
-  //     $("#q4_2_1").focus()
-  //     return false
-  //   }
-  //   if ($(".q4_2t:checked").length != "" && $("#q4_2t").val() == "") {
-  //     alert("อื่น ๆ ระบุ..........")
-  //     $("#q4_2_6").focus()
-  //     return false
-  //   }
-  //   if ($(".q4_2_1:checked").length == "") {
-  //     alert("4.2.1 ท่านว่างงานมานานเท่าไรแล้ว")
-  //     $("#q4_2_1_1").focus()
-  //     return false
-  //   }
-  // }
+  if ($(".sex:checked").length == "") {
+    alert("1.เพศ")
+    $(".sex").focus()
+    return false
+  }
+  if ($(".age").val() == "") {
+    alert("2. อายุ")
+    $(".age").focus()
+    return false
+  }
+  if ($(".q3:checked").length == "" && $(".q3_9t:checked").length == "") {
+    alert("3. สำเร็จการศึกษาสูงสุดในระดับใด")
+    $("#q3_1").focus()
+    return false
+  }
+  if ($(".q3_9t:checked").length != "" && $(".q3t").val() == "") {
+    alert("อื่น ๆ ระบุ..........")
+    $("#q3_9").focus()
+    return false
+  }
+  if ($(".q4:checked").length == "") {
+    alert("4. ปัจจุบันท่านมีงานทำหรือไม่")
+    $("#q4_1").focus()
+    return false
+  }
+  if ($("#q4_1c").val() == 1 && $("#q4_1c:checked").length != "") {
+    if ($(".q4_1:checked").length == "" && $(".q4_1t:checked").length == "") {
+      alert("4.1 ปัจจุบันท่านทำงานอยู่ในภาคส่วนใด")
+      $("#q4_1_1").focus()
+      return false
+    }
+    if ($(".q4_1t:checked").length != "" && $("#q4_1t").val() == "") {
+      alert("อื่น ๆ ระบุ..........")
+      $("#q4_1_8").focus()
+      return false
+    }
+  }
+  if ($("#q4_2c").val() == 2 && $("#q4_2c:checked").length != "") {
+    if ($(".q4_2:checked").length == "" && $(".q4_2t:checked").length == "") {
+      alert("4.2 ไม่ได้ทำงาน (ว่างงาน) เหตุผลที่ไม่ได้ทำงาน")
+      $("#q4_2_1").focus()
+      return false
+    }
+    if ($(".q4_2t:checked").length != "" && $("#q4_2t").val() == "") {
+      alert("อื่น ๆ ระบุ..........")
+      $("#q4_2_6").focus()
+      return false
+    }
+    if ($(".q4_2_1:checked").length == "") {
+      alert("4.2.1 ท่านว่างงานมานานเท่าไรแล้ว")
+      $("#q4_2_1_1").focus()
+      return false
+    }
+  }
+
+  if ($(".weight").val() == "") {
+    alert("ท่านมีน้ำหนัก")
+    $(".weight").focus()
+    return false
+  }
+  if ($(".height").val() == "") {
+    alert("ส่วนสูง")
+    $(".height").focus()
+    return false
+  }
+  if ($(".waist").val() == "") {
+    alert("เส้นรอบเอว )")
+    $(".waist").focus()
+    return false
+  }
 
   if ($(".q6:checked").length == "") {
     alert("6. โดยปกติ ท่านกินอาหารรสจัด (หวานจัด เค็มจัด มันจัด)")
@@ -109,27 +125,27 @@ $(".subSent").click(function () {
     $("#q7_1").focus()
     return false
   }
-   if ($(".q8:checked").length == "") {
+  if ($(".q8:checked").length == "") {
     alert("8. โดยปกติ ท่านเล่นหวย พนัน ")
     $("#q8_1").focus()
     return false
   }
-   if ($(".q9:checked").length == "") {
+  if ($(".q9:checked").length == "") {
     alert("9. โดยปกติ ท่านออกกำลังกาย (อย่างน้อย 30 นาที)")
     $("#q9_1").focus()
     return false
   }
-   if ($(".q10:checked").length == "") {
+  if ($(".q10:checked").length == "") {
     alert("10. โดยปกติ ท่านสูบบุหรี่/ บุหรี่ไฟฟ้า")
     $("#q10_1").focus()
     return false
   }
-   if ($(".q11:checked").length == "") {
+  if ($(".q11:checked").length == "") {
     alert("11. โดยปกติ ท่านดื่มเครื่องดื่มที่มีแอลกอฮอล์")
     $("#q11_1").focus()
     return false
   }
-   if ($(".q12:checked").length == "") {
+  if ($(".q12:checked").length == "") {
     alert("12. โดยรวมแล้ว ท่านมีความเครียด")
     $("#q12_1").focus()
     return false
@@ -179,6 +195,4 @@ $(".subSent").click(function () {
     $("#q21_1").focus()
     return false
   }
-
-
 })
