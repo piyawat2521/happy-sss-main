@@ -932,7 +932,7 @@
 
     </div>
     </div>
-    <div class="" style="margin-bottom: 15rem;"></div>
+    <div class="" style="margin-bottom: 3rem;"></div>
 
     <?php include 'title/footer1.php'; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
