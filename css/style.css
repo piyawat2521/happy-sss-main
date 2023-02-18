@@ -107,6 +107,23 @@
   margin: auto;
 }
 
+.footer1 {
+  display: block;
+  width: 100%;
+  background-color: cadetblue;
+  color: rgb(4, 4, 4);
+  text-align: center;
+  margin-top: 10rem;
+  padding: 2rem 0;
+}
+
+.footterText {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
 @media only screen and (max-width: 1023px) {
   .headText h4 {
     font-size: 20px;

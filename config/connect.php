@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "root";
-$db = "db_wellness_happy";
+$user = "admin_wellness";
+$pass = "ipsr5692";
+$db = "admin_wellness";
 
 
 $coon = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
