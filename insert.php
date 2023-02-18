@@ -3,7 +3,7 @@ session_start();
 include 'config/connect.php';
 
 $dateTimer = date("d/m/") . (date("Y") + 543) . date("-H:i:s");
-$sess = $_SESSION["code"];
+$sess = 111;
 //echo "ll" . $_POST["q3t"];
 if (empty($_POST["q4_1"])) {
     $q4_1 = 0;
