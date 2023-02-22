@@ -838,7 +838,7 @@
                 <div class="form-check">
                     <input class="form-check-input q20" name="q20" type="radio" value="1" id="q20_1">
                     <label class="form-check-label" for="q20_1">
-                        1 ไม่มี/ มีน้อยที่สุด
+                        1 ไม่มี
                     </label>
                 </div>
                 <div class="form-check">
@@ -877,7 +877,7 @@
                 <div class="form-check">
                     <input class="form-check-input q21" name="q21" type="radio" value="1" id="q21_1">
                     <label class="form-check-label" for="q21_1">
-                        1 ไม่สามารถจัดการได้/ จัดการได้น้อยที่สุด
+                        1 ไม่สามารถจัดการได้
                     </label>
                 </div>
                 <div class="form-check">

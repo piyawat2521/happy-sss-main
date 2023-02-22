@@ -42,43 +42,43 @@ $sum1  = ($numData[$_POST["q6"]] + $numData[$_POST["q7"]] + $numData[$_POST["q8"
 
 $sum = round($sum1);
 
-$textShow0 = " คะแนนเฉลี่ยระหว่าง 0.00 – 24.99 Very Unhappy<br>
-สะท้อนให้เห็นว่า บุคลากรในองค์กรอยู่ในระดับ “ไม่มีความสุขเลย” และ “ไม่มีสุขภาวะเลย”
+$textShow0 = " <b>คะแนนเฉลี่ยระหว่าง 0.00 – 24.99</b>  <br> <span style='color:#e16e25'> <b>Very Unhappy</b> </span> <hr>
+สะท้อนให้เห็นว่า บุคลากรในองค์กรอยู่ในระดับ <b><u>“ไม่มีความสุขเลย”</u></b>  และ <b><u>“ไม่มีสุขภาวะเลย”</u></b>
 ตัวท่านเองและผู้บริหารต้องร่วมมือกัน ดำเนินการพัฒนาสร้างเสริมความสุขอย่างเร่งด่วน
 ";
 
-$textShow1 = " คะแนนเฉลี่ยระหว่าง 25.00 – 49.99 Unhappy<br>
-	สะท้อนให้เห็นว่า บุคลากรในองค์กรอยู่ในระดับ  “ไม่มีความสุข” และ “ไม่มีสุขภาวะ”
+$textShow1 = " <b>คะแนนเฉลี่ยระหว่าง 25.00 – 49.99</b> <br> <span style='color:#fdbb17'> <b>Unhappy</b> </span> <hr>
+	สะท้อนให้เห็นว่า บุคลากรในองค์กรอยู่ในระดับ <b><u>“ไม่มีความสุข”</u></b>  และ  <b><u>“ไม่มีสุขภาวะ”</u></b>
 	ตัวท่านเองและผู้บริหารต้องร่วมมือกัน พัฒนาสร้างเสริมความสุขอย่างจริงจัง
 
 ";
-$textShow2 = " คะแนนเฉลี่ยระหว่าง 50.00 – 74.99 Happy<br>
-	สะท้อนให้เห็นว่า บุคลากรในองค์กรอยู่ในระดับ  “มีความสุข” และ “มีสุขภาวะ”
+$textShow2 = " <b>คะแนนเฉลี่ยระหว่าง 50.00 – 74.99</b> <br> <span style='color:#70b449'> <b>Happy</b> </span> <hr>
+	สะท้อนให้เห็นว่า บุคลากรในองค์กรอยู่ในระดับ <b><u>“มีความสุข”</u></b>  และ <b><u>“มีสุขภาวะ”</u></b> 
 	ตัวท่านเองและผู้บริหารต้องร่วมมือกัน สร้างเสริมและสนับสนุนให้มีความสุขยิ่งขึ้นต่อไป
 
 
 ";
-$textShow3 = " คะแนนเฉลี่ยระหว่าง 75.00 – 100.0  Very Happy<br>
-	สะท้อนให้เห็นว่า บุคลากรในองค์กรอยู่ในระดับ “มีความสุขมาก” และ “มีสุขภาวะมาก”
-ตัวท่านเองและผู้บริหารต้องร่วมมือกัน สร้างเสริมและสนับสนุนให้บุคลากรทุกคนมีความสุขอย่างต่อเนื่องและยั่งยืน รวมทั้งร่วมมือกันสร้างเสริมให้เป็น “องค์กรต้นแบบสร้างสุข” เพื่อเป็นแบบอย่าง “องค์กรที่มีการปฏิบัติที่เป็นเลิศ (Best Practice)”
+$textShow3 = " <b>คะแนนเฉลี่ยระหว่าง 75.00 – 100.0</b> <br>  <span style='color:#11914d'> <b>Very Happy</b> </span> <hr>
+	สะท้อนให้เห็นว่า บุคลากรในองค์กรอยู่ในระดับ <b><u>“มีความสุขมาก”</u></b>  และ <b><u>“มีสุขภาวะมาก”</u></b> 
+ตัวท่านเองและผู้บริหารต้องร่วมมือกัน สร้างเสริมและสนับสนุนให้บุคลากรทุกคนมีความสุขอย่างต่อเนื่องและยั่งยืน รวมทั้งร่วมมือกันสร้างเสริมให้เป็น <b><u>“องค์กรต้นแบบสร้างสุข”</u></b>  เพื่อเป็นแบบอย่าง <b><u>“องค์กรที่มีการปฏิบัติที่เป็นเลิศ (Best Practice)”</u></b>
 
 ";
 if ($sum >= 0 and $sum <= 24.99) {
     $sumText = $textShow0;
     $textColor = "red";
-    $imgShow = "<img src='img/v.png'> ";
+    $imgShow = "<img src='img/vu.png'> ";
 } elseif ($sum >= 25.00 and $sum <= 49.99) {
     $sumText = $textShow1;
     $textColor = "#000";
-    $imgShow = "<img src='img/u.png'> ";
+    $imgShow = "<img src='img/uh.png'> ";
 } elseif ($sum >= 50.00 and $sum <= 74.99) {
     $sumText = $textShow2;
     $textColor = "#000";
-    $imgShow = "<img src='img/u.png'> ";
+    $imgShow = "<img src='img/ha.png'> ";
 } elseif ($sum >= 75.00 and $sum <= 100) {
     $sumText = $textShow3;
     $textColor = "#000";
-    $imgShow = "<img src='img/h.png'> ";
+    $imgShow = "<img src='img/vh.png'> ";
 }
 $weight = $_POST["weight"];
 $heightN = $_POST["height"] / 100;
@@ -200,13 +200,14 @@ try {
             <div class="showimg">
                 <?= $imgShow ?>
             </div>
+            <!--
             <div class="sumq">
                 <div class="sumq">
                     <?= $sum ?>
                 </div>
             </div>
-            <div class="sumShowText" style="color: <?= $textColor ?>">
-                <hr>
+-->
+            <div class="sumShowText">
                 <?= $sumText ?>
             </div>
             <div class="headText">
@@ -214,14 +215,14 @@ try {
             </div>
             <hr>
             <div class="sumq"><?= round($bmi, 1)  ?></div>
-            <div class="sumShowText" style="color: <?= $textColor ?>">
+            <div class="sumShowText">
                 <hr>
                 <?= $bmi_text ?><br>เพศที่ท่านระบุ : <?= $sexTh ?> | เส้นรอบเอวของท่านคือ <?= round($wt)  ?> cm <?= $wt_t ?>
             </div>
         </div>
 
     </div>
-    <?php include 'title/footer.php'; ?>
+    <?php include 'title/footer1.php'; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="js/checkPage.js"></script>
 

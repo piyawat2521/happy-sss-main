@@ -38,7 +38,7 @@ $_SESSION["code"] = $ex;
         </div>
     </div>
 
-    <?php include 'title/footer.php'; ?>
+    <?php include 'title/footer1.php'; ?>
 </body>
 
 </html>
