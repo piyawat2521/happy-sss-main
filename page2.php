@@ -571,75 +571,82 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">13. โดยรวมแล้ว ท่านให้การช่วยเหลือแก่คนรอบข้างหรือไม่</div>
+            <div class="titleText">13. โดยปกติ ท่านมีความปลอดภัยจากการเดินทางบนท้องถนนในเพียงใด</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q13" name="q13" type="radio" value="1" id="q13_1">
                     <label class="form-check-label" for="q13_1">
-                        1 ไม่เคย/ แทบจะไม่เคยช่วย
+                        1 ไม่มี
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q13" name="q13" type="radio" value="2" id="q13_2">
                     <label class="form-check-label" for="q13_2">
-                        2 นานๆ ครั้ง
+                        2 มีน้อย
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q13" name="q13" type="radio" value="3" id="q13_3">
                     <label class="form-check-label" for="q13_3">
-                        3 ช่วยบ้างบางครั้ง
+                        3 มีปานกลาง
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q13" name="q13" type="radio" value="4" id="q13_4">
                     <label class="form-check-label" for="q13_4">
-                        4 ช่วยแทบทุกครั้ง
+                        4 มีมาก
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q13" name="q13" type="radio" value="5" id="q13_5">
                     <label class="form-check-label" for="q13_5">
-                        5 ช่วยทุกครั้ง
+                        5 มีมากที่สุด
                     </label>
                 </div>
+
+
+
+
 
             </div>
         </div>
 
         <div class="boxMain">
-            <div class="titleText">14. โดยรวมแล้ว ท่านตอบแทนผู้มีพระคุณหรือช่วยเหลือท่านหรือไม่</div>
+            <div class="titleText">14. โดยปกติ ท่านได้รับมลพิษจากสิ่งแวดล้อมรอบตัวท่านยในการใช้ชีวิตประจำวัน (เช่น ฝุ่น ควัน กลิ่น เสียง อากาศ ฯลฯ) เพียงใด</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q14" name="q14" type="radio" value="1" id="q14_1">
                     <label class="form-check-label" for="q14_1">
-                        1 ไม่ตอบแทน/ ตอบแทนน้อยที่สุด
+                        1 ไม่ได้รับ
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q14" name="q14" type="radio" value="2" id="q14_2">
                     <label class="form-check-label" for="q14_2">
-                        2 น้อย
+                        2 ได้รับน้อย
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q14" name="q14" type="radio" value="3" id="q14_3">
                     <label class="form-check-label" for="q14_3">
-                        3 ปานกลาง
+                        3 ได้รับปานกลาง
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q14" name="q14" type="radio" value="4" id="q14_4">
                     <label class="form-check-label" for="q14_4">
-                        4 มาก
+                        4 ได้รับมาก
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q14" name="q14" type="radio" value="5" id="q14_5">
                     <label class="form-check-label" for="q14_5">
-                        5 มากที่สุด
+                        5 ได้รับมากที่สุด
                     </label>
                 </div>
+
+
+
 
             </div>
         </div>
@@ -650,7 +657,7 @@
                 <div class="form-check">
                     <input class="form-check-input q15" name="q15" type="radio" value="1" id="q15_1">
                     <label class="form-check-label" for="q15_1">
-                        1 ไม่มี/ มีน้อยที่สุด
+                        1 ไม่มี
                     </label>
                 </div>
                 <div class="form-check">
@@ -687,7 +694,7 @@
                 <div class="form-check">
                     <input class="form-check-input q16" name="q16" type="radio" value="1" id="q16_1">
                     <label class="form-check-label" for="q16_1">
-                        1 ไม่มี/ มีน้อยที่สุด
+                        1 ไม่มี
                     </label>
                 </div>
                 <div class="form-check">
@@ -719,38 +726,39 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">17. โดยรวมแล้ว ท่านทำงานอย่างมีความสุขหรือไม่</div>
+            <div class="titleText">17. โดยรวมแล้ว ท่านแสวงหาความรู้ใหม่/ เทคโนโลยีใหม่ ๆ เพิ่มเติมจากแหล่งความรู้เดิมในระดับใด</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q17" name="q17" type="radio" value="1" id="q17_1">
                     <label class="form-check-label" for="q17_1">
-                        1 ไม่มี/ มีน้อยที่สุด
+                        1 ไม่ทำ/ ไม่แสวงหา
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q17" name="q17" type="radio" value="2" id="q17_2">
                     <label class="form-check-label" for="q17_2">
-                        2 น้อย
+                        2 ทำ/ แสวงหาน้อย
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q17" name="q17" type="radio" value="3" id="q17_3">
                     <label class="form-check-label" for="q17_3">
-                        3 ปานกลาง
+                        3 ทำ/ แสวงหาปานกลาง
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q17" name="q17" type="radio" value="4" id="q17_4">
                     <label class="form-check-label" for="q17_4">
-                        4 มาก
+                        4 ทำ/ แสวงหาบ่อยครั้ง
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q17" name="q17" type="radio" value="5" id="q17_5">
                     <label class="form-check-label" for="q17_5">
-                        5 มากที่สุด
+                        5 ทำ/ แสวงหาเป็นประจำ
                     </label>
                 </div>
+
 
 
 
@@ -758,79 +766,83 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">18. โดยรวมแล้ว ท่านพัฒนาตนเองเพื่อความก้าวหน้าในชีวิตหรือไม่</div>
+            <div class="titleText">18. โดยรวมแล้ว ค่าตอนแทนที่ท่านได้รับทั้งหมดในแต่ละเดือนเป็นอย่างไร เมื่อเปรียบเทียบกับรายจ่ายทั้งหมดในแต่ละเดือน</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q18" name="q18" type="radio" value="1" id="q18_1">
                     <label class="form-check-label" for="q18_1">
-                        1 ไม่พัฒนา/ พัฒนาน้อยที่สุด
+                        1 รายจ่ายเกินกว่ารายได้มาก
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q18" name="q18" type="radio" value="2" id="q18_2">
                     <label class="form-check-label" for="q18_2">
-                        2 น้อย
+                        2 รายจ่ายเกินกว่ารายได้เล็กน้อย
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q18" name="q18" type="radio" value="3" id="q18_3">
                     <label class="form-check-label" for="q18_3">
-                        3 ปานกลาง
+                        3 รายจ่ายพอๆ กับรายได้
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q18" name="q18" type="radio" value="4" id="q18_4">
                     <label class="form-check-label" for="q18_4">
-                        4 มาก
+                        4 รายจ่ายน้อยกว่ารายได้
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q18" name="q18" type="radio" value="5" id="q18_5">
                     <label class="form-check-label" for="q18_5">
-                        5 มากที่สุด
+                        5 รายจ่ายน้อยกว่ารายได้มาก
                     </label>
                 </div>
+
 
             </div>
         </div>
         <!--- หนูลองใส่คำสั้งขีดเส้นใต้ดู  -->
         <div class="boxMain">
-            <div class="titleText">19. โดยรวมแล้ว <ins>การผ่อนชำระหนี้สินต่าง ๆ</ins> ของท่านในปัจจุบันเป็นภาระ หรือไม่</div>
+            <div class="titleText">19. โดยรวมแล้ว ท่านทำงานอย่างมีความสุขหรือไม่</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q19" name="q19" type="radio" value="1" id="q19_1">
                     <label class="form-check-label" for="q19_1">
-                        1 เป็นภาระหนักที่สุด
+                        1 ไม่มี/ มีน้อยที่สุด
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q19" name="q19" type="radio" value="2" id="q19_2">
                     <label class="form-check-label" for="q19_2">
-                        2 เป็นภาระหนักมาก
+                        2 น้อย
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q19" name="q19" type="radio" value="3" id="q19_3">
                     <label class="form-check-label" for="q19_3">
-                        3 เป็นภาระปานกลาง
+                        3 ปานกลาง
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input q19" name="q19" type="radio" value="4" id="q19_4">
                     <label class="form-check-label" for="q19_4">
-                        4 เป็นภาระน้อย
+                        4 มาก
                     </label>
                 </div>
                 <!--- หนูลองใส่คำสั้งขีดเส้นใต้ดู  -->
                 <div class="form-check">
                     <input class="form-check-input q19" name="q19" type="radio" value="5" id="q19_5">
                     <label class="form-check-label" for="q19_5">
-                        5 ไม่เป็นภาระ/ ไม่ได้ผ่อนชำระ/ <ins>ไม่มีหนี้สิน</ins>
+                        5 มากที่สุด
                     </label>
                 </div>
 
             </div>
         </div>
+
+
+
 
         <div class="boxMain">
             <div class="titleText">20. ในแต่ละวัน ท่านทำงานอย่างมีเป้าหมายหรือไม่</div>
