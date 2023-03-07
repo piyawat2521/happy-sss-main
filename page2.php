@@ -124,195 +124,138 @@
                     <div class="titleText">4. ปัจจุบันท่านมีงานทำหรือไม่</div>
                     <div class="awText">
                         <div class="form-check">
-                            <input class="form-check-input q4" name="q4" type="radio" value="1" id="q4_1c">
-                            <label class="form-check-label" for="q4_1c">
-                                1. มี (ตอบข้อ 4.1)
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4" name="q4" type="radio" value="2" id="q4_2c">
-                            <label class="form-check-label" for="q4_2c">
-                                2. ไม่มี (ตอบข้อ 4.2)
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="boxMain" id="checkQ4_1">
-                    <div class="titleText">4.1 ปัจจุบันท่านทำงานอยู่ในภาคส่วนใด</div>
-                    <div class="awText">
-                        <div class="form-check">
-                            <input class="form-check-input q4_1" name="q4_1" type="radio" value="1" id="q4_1_1">
-                            <label class="form-check-label" for="q4_1_1">
+                            <input class="form-check-input q4" name="q4" type="radio" value="1" id="q4_1">
+                            <label class="form-check-label" for="q4_1">
                                 1 ภาครัฐ
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input q4_1" name="q4_1" type="radio" value="2" id="q4_1_2">
-                            <label class="form-check-label" for="q4_1_2">
+                            <input class="form-check-input q4" name="q4" type="radio" value="2" id="q4_2">
+                            <label class="form-check-label" for="q4_2">
                                 2 ภาครัฐวิสาหกิจ
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input q4_1" name="q4_1" type="radio" value="4_1" id="q4_1_3">
-                            <label class="form-check-label" for="q4_1_3">
+                            <input class="form-check-input q4" name="q4" type="radio" value="3" id="q4_3">
+                            <label class="form-check-label" for="q4_3">
                                 3 ภาคเอกชน
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input q4_1" name="q4_1" type="radio" value="4" id="q4_1_4">
-                            <label class="form-check-label" for="q4_1_4">
+                            <input class="form-check-input q4" name="q4" type="radio" value="4" id="q4_4">
+                            <label class="form-check-label" for="q4_4">
                                 4 ภาควิสาหกิจขนาดกลางและขนาดย่อม (SMEs)
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input q4_1" name="q4_1" type="radio" value="5" id="q4_1_5">
-                            <label class="form-check-label" for="q4_1_5">
+                            <input class="form-check-input q4" name="q4" type="radio" value="5" id="q4_5">
+                            <label class="form-check-label" for="q4_5">
                                 5 ภาควิสาหกิจชุมชน
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input q4_1" name="q4_1" type="radio" value="6" id="q4_1_6">
-                            <label class="form-check-label" for="q4_1_6">
+                            <input class="form-check-input q4" name="q4" type="radio" value="6" id="q4_6">
+                            <label class="form-check-label" for="q4_6">
                                 6 ฟรีแลนซ์ (freelance)
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input q4_1" name="q4_1" type="radio" value="7" id="q4_1_7">
-                            <label class="form-check-label" for="q4_1_7">
+                            <input class="form-check-input q4" name="q4" type="radio" value="7" id="q4_7">
+                            <label class="form-check-label" for="q4_7">
                                 7 Start-up
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input q4_1t" name="q4_1" type="radio" value="8" id="q4_1_8">
-                            <label class="form-check-label" for="q4_1_8">
-                                8 อื่น ๆ
-                                <input type="text" class="form-control" id="q4_1t" style="width: 350px;" name="q4_1t" placeholder="ระบุ......... ">
+                            <input class="form-check-input q4" name="q4" type="radio" value="8" id="q4_8">
+                            <label class="form-check-label" for="q4_8">
+                                8 นักเรียน/นักศึกษา
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input q4" name="q4" type="radio" value="9" id="q4_9">
+                            <label class="form-check-label" for="q4_9">
+                                9 ไม่ได้ทำงาน
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input q4_10t" name="q4" type="radio" value="10" id="q4_10">
+                            <label class="form-check-label" for="q4_10">
+                                10 อื่น ๆ
+                                <input type="text" class="form-control q4t" style="width: 350px;" name="q4t" id="q4t" placeholder="ระบุ......... ">
                             </label>
                         </div>
                     </div>
                 </div>
-
-                <div class="boxMain ckeckQ4_2">
-                    <div class="titleText">4.2 ไม่ได้ทำงาน (ว่างงาน) เหตุผลที่ไม่ได้ทำงาน
-                    </div>
-                    <div class="awText">
-                        <div class="form-check">
-                            <input class="form-check-input q4_2" name="q4_2" type="radio" value="1" id="q4_2_1">
-                            <label class="form-check-label" for="q4_2_1">
-                                1 เรียนหนังสือ
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4_2" name="q4_2" type="radio" value="2" id="q4_2_2">
-                            <label class="form-check-label" for="q4_2_2">
-                                2 เป็นแม่บ้าน/พ่อบ้าน
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4_2" name="q4_2" type="radio" value="4_1" id="q4_2_3">
-                            <label class="form-check-label" for="q4_2_3">
-                                3 เกษียณ
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4_2" name="q4_2" type="radio" value="4" id="q4_2_4">
-                            <label class="form-check-label" for="q4_2_4">
-                                4 ป่วย/พักรักษาตัว
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4_2" name="q4_2" type="radio" value="5" id="q4_2_5">
-                            <label class="form-check-label" for="q4_2_5">
-                                5 กำลังหางาน/อยู่ระหว่างรอเรียกทำงาน
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4_2t" name="q4_2" type="radio" value="6" id="q4_2_6">
-                            <label class="form-check-label" for="q4_2_6">
-                                6 อื่น ๆ
-                                <input type="text" class="form-control" id="q4_2t" style="width: 350px;" name="q4_2t" placeholder="ระบุ......... ">
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="boxMain ckeckQ4_2">
-                    <div class="titleText">4.2.1 ท่านว่างงานมานานเท่าไรแล้ว
-                    </div>
-                    <div class="awText">
-                        <div class="form-check">
-                            <input class="form-check-input q4_2_1" name="q4_2_1" type="radio" value="1" id="q4_2_1_1">
-                            <label class="form-check-label" for="q4_2_1_1">
-                                1 ไม่ถึง 1 เดือน
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4_2_1" name="q4_2_1" type="radio" value="2" id="q4_2_1_2">
-                            <label class="form-check-label" for="q4_2_1_2">
-                                2 ระหว่าง 1 – 11 เดือน
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4_2_1" name="q4_2_1" type="radio" value="4_1" id="q4_2_1_3">
-                            <label class="form-check-label" for="q4_2_1_3">
-                                3 ระหว่าง 1 – 3 ปี
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4_2_1" name="q4_2_1" type="radio" value="4" id="q4_2_1_4">
-                            <label class="form-check-label" for="q4_2_1_4">
-                                4 ระหว่าง 4 – 6 ปี
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input q4_2_1" name="q4_2_1" type="radio" value="5" id="q4_2_1_5">
-                            <label class="form-check-label" for="q4_2_1_5">
-                                5 ตั้งแต่ 7 ปี ขึ้นไป
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <!-------- ข้อที่ 5 ---------------------->
 
                 <div class="boxMain">
-                    <div class="titleText">5 ปัจจุบัน</div>
-                    <div class="row">
-                        <div class="col-md-4" style="margin-bottom: 5rem;">
-                            <div class="awText">
-                                <div class="mb-3 row" style="padding-left: 1rem;">
-                                    ท่านมีน้ำหนัก
-                                    <input type="number" class="form-control weight" style="width: 100px; margin: 0 1rem" name="weight" min="0" max="999"> กิโลกรัม
-                                </div>
-                            </div>
-                            <div class="awText">
-                                <div class="mb-3 row" style="padding-left: 1rem;">
-                                    ส่วนสูง
-                                    <input type="number" class="form-control height" style="width: 100px; margin: 0 1rem" name="height" min="0" max="999"> เซนติเมตร
-                                </div>
-                            </div>
-                            <div class="awText">
-                                <div class="mb-3 row" style="padding-left: 1rem;">
-                                    เส้นรอบเอว
-                                    <input type="number" class="form-control waist" style="width: 100px; margin: 0 1rem" name="waist" min="0" max="999"> นิ้ว
-                                </div>
-                            </div>
+                    <div class="titleText">5. งานที่ท่านทำเป็นงานลักษณะใด</div>
+                    <div class="awText">
+                        <div class="form-check">
+                            <input class="form-check-input q5" name="q5" type="radio" value="1" id="q5_1">
+                            <label class="form-check-label" for="q5_1">
+                                1 งานสำนักงาน
+                            </label>
                         </div>
-                        <div class="col-md-8">
-                            <div class="imgBox">
-                                <img src="img/bmi.jpg" alt="" srcset="">
-                            </div>
+                        <div class="form-check">
+                            <input class="form-check-input q5" name="q5" type="radio" value="2" id="q5_2">
+                            <label class="form-check-label" for="q5_2">
+                                2 งานด้านการผลิต
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input q5" name="q5" type="radio" value="3" id="q5_3">
+                            <label class="form-check-label" for="q5_3">
+                                3 งานด้านบริการ
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input q5" name="q5" type="radio" value="4" id="q5_4">
+                            <label class="form-check-label" for="q5_4">
+                                4 งานด้านบริหาร
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input q5" name="q5" type="radio" value="5" id="q5_5">
+                            <label class="form-check-label" for="q5_5">
+                                5 งานด้านวิชาการ
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input q5" name="q5" type="radio" value="6" id="q5_6">
+                            <label class="form-check-label" for="q5_6">
+                                6 เจ้าของธุรกิจ/ กิจการ
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input q5" name="q5" type="radio" value="7" id="q5_7">
+                            <label class="form-check-label" for="q5_7">
+                                7 นักเรียน/นักศึกษา
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input q5" name="q5" type="radio" value="8" id="q5_8">
+                            <label class="form-check-label" for="q5_8">
+                                8 ไม่ได้ทำงาน
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input q5_9t" name="q5" type="radio" value="9" id="q5_9">
+                            <label class="form-check-label" for="q5_9">
+                                9 อื่น ๆ
+                                <input type="text" class="form-control q5t" style="width: 350px;" name="q5t" id="q5t" placeholder="ระบุ......... ">
+                            </label>
                         </div>
                     </div>
-
                 </div>
         </div>
+
+
 
         <!------วาทำต่อจากต่อจากตรงนี้ 6 - 21------>
 
 
         <div class="boxMain">
-            <div class="titleText">6. โดยปกติ ท่านกินอาหารรสจัด (หวานจัด เค็มจัด มันจัด) โดยเฉลี่ยสัปดาห์ละกี่วัน</div>
+            <div class="titleText">6. ในชีวิตประจำวันทุกวันนี้ ท่านกินอาหารรสจัด (หวานจัด เค็มจัด มันจัด) โดยเฉลี่ยสัปดาห์ละกี่วัน</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q6" name="q6" type="radio" value="1" id="q6_1">
@@ -349,7 +292,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">7. โดยปกติ ท่านกินผัก หรือ ผลไม้ โดยเฉลี่ยสัปดาห์ละกี่วัน</div>
+            <div class="titleText">7. ในชีวิตประจำวันทุกวันนี้ ท่านกินผัก หรือ ผลไม้ โดยเฉลี่ยสัปดาห์ละกี่วัน</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q7" name="q7" type="radio" value="1" id="q7_1">
@@ -386,7 +329,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">8. โดยปกติ ท่านเล่นหวย พนัน (รวมพนันออนไลน์) เสี่ยงโชค หรือไม่</div>
+            <div class="titleText">8. ในชีวิตประจำวันทุกวันนี้ ท่านเล่นหวย พนัน (รวมพนันออนไลน์) เสี่ยงโชค หรือไม่</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q8" name="q8" type="radio" value="1" id="q8_1">
@@ -423,7 +366,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">9. โดยปกติ ท่านออกกำลังกาย (อย่างน้อย 30 นาที) โดยเฉลี่ยสัปดาห์ละกี่วัน</div>
+            <div class="titleText">9. ในชีวิตประจำวันทุกวันนี้ ท่านออกกำลังกาย (อย่างน้อย 30 นาที) โดยเฉลี่ยสัปดาห์ละกี่วัน</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q9" name="q9" type="radio" value="1" id="q9_1">
@@ -460,7 +403,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">10. โดยปกติ ท่านสูบบุหรี่/ บุหรี่ไฟฟ้า/ ใบจาก/ ยาเส้น หรือไม่</div>
+            <div class="titleText">10. ในชีวิตประจำวันทุกวันนี้ ท่านสูบบุหรี่/ บุหรี่ไฟฟ้า/ ใบจาก/ ยาเส้น หรือไม่</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q10" name="q10" type="radio" value="1" id="q10_1">
@@ -497,7 +440,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">11. โดยปกติ ท่านดื่มเครื่องดื่มที่มีแอลกอฮอล์ เช่น เหล้า เบียร์ ไวน์ สาโท หรือสุราพื้นบ้านหรือไม่</div>
+            <div class="titleText">11. ในชีวิตประจำวันทุกวันนี้ ท่านดื่มเครื่องดื่มที่มีแอลกอฮอล์ เช่น เหล้า เบียร์ ไวน์ สาโท หรือสุราพื้นบ้านหรือไม่</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q11" name="q11" type="radio" value="1" id="q11_1">
@@ -534,7 +477,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">12. โดยรวมแล้ว ท่านมีความเครียด (จากการทำงาน/ ครอบครัว/ เรื่องอื่นๆ) บ้างหรือไม่</div>
+            <div class="titleText">12. ในชีวิตประจำวันทุกวันนี้ ท่านมีความเครียด (จากการทำงาน/ การเรียน/ ครอบครัว/ เรื่องอื่นๆ) บ้างหรือไม่</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q12" name="q12" type="radio" value="1" id="q12_1">
@@ -571,7 +514,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">13. โดยปกติ ท่านมีความปลอดภัยจากการเดินทางบนท้องถนนในเพียงใด</div>
+            <div class="titleText">13. ในชีวิตประจำวันทุกวันนี้ ท่านมีความปลอดภัยจากการเดินทางบนท้องถนนในเพียงใด</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q13" name="q13" type="radio" value="1" id="q13_1">
@@ -603,16 +546,11 @@
                         5 มีมากที่สุด
                     </label>
                 </div>
-
-
-
-
-
             </div>
         </div>
 
         <div class="boxMain">
-            <div class="titleText">14. โดยปกติ ท่านได้รับมลพิษจากสิ่งแวดล้อมรอบตัวท่านยในการใช้ชีวิตประจำวัน (เช่น ฝุ่น ควัน กลิ่น เสียง อากาศ ฯลฯ) เพียงใด</div>
+            <div class="titleText">14. ในชีวิตประจำวันทุกวันนี้ ท่านได้รับมลพิษจากสิ่งแวดล้อมรอบตัวท่านในการใช้ชีวิตประจำวัน (เช่น ฝุ่น ควัน กลิ่น เสียง อากาศ ฯลฯ) เพียงใด</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q14" name="q14" type="radio" value="1" id="q14_1">
@@ -652,7 +590,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">15. โดยรวมแล้ว ท่านมีความสุขกับครอบครัวของท่านหรือไม่</div>
+            <div class="titleText">15. ในชีวิตประจำวันทุกวันนี้ ท่านมีความสุขกับครอบครัวของท่านหรือไม่</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q15" name="q15" type="radio" value="1" id="q15_1">
@@ -689,7 +627,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">16. โดยรวมแล้ว ท่านใช้ชีวิตในสังคมอย่างมีความสุขหรือไม่</div>
+            <div class="titleText">16. ในชีวิตประจำวันทุกวันนี้ ท่านใช้ชีวิตในสังคมอย่างมีความสุขหรือไม่</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q16" name="q16" type="radio" value="1" id="q16_1">
@@ -726,7 +664,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">17. โดยรวมแล้ว ท่านแสวงหาความรู้ใหม่/ เทคโนโลยีใหม่ ๆ เพิ่มเติมจากแหล่งความรู้เดิมในระดับใด</div>
+            <div class="titleText">17. ในชีวิตประจำวันทุกวันนี้ ท่านแสวงหาความรู้ใหม่/ เทคโนโลยีใหม่ ๆ เพิ่มเติมจากแหล่งความรู้เดิมในระดับใด</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q17" name="q17" type="radio" value="1" id="q17_1">
@@ -804,7 +742,7 @@
         </div>
         <!--- หนูลองใส่คำสั้งขีดเส้นใต้ดู  -->
         <div class="boxMain">
-            <div class="titleText">19. โดยรวมแล้ว ท่านทำงานอย่างมีความสุขหรือไม่</div>
+            <div class="titleText">19. ในชีวิตประจำวันทุกวันนี้ ท่านทำงาน/เรียนอย่างมีความสุขหรือไม่</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q19" name="q19" type="radio" value="1" id="q19_1">
@@ -845,7 +783,7 @@
 
 
         <div class="boxMain">
-            <div class="titleText">20. ในแต่ละวัน ท่านทำงานอย่างมีเป้าหมายหรือไม่</div>
+            <div class="titleText">20. ในแต่ละวัน ท่านทำงาน/เรียนอย่างมีเป้าหมายหรือไม่</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q20" name="q20" type="radio" value="1" id="q20_1">
@@ -884,7 +822,7 @@
         </div>
 
         <div class="boxMain">
-            <div class="titleText">21. โดยเฉลี่ยใน 1 สัปดาห์ ท่านสามารถจัดการชั่วโมงการทำงานไม่ให้มากหรือน้อยเกินไปเพียงใด</div>
+            <div class="titleText">21. โดยเฉลี่ยใน 1 สัปดาห์ ท่านสามารถจัดการชั่วโมงการทำงาน/เรียนไม่ให้มากหรือน้อยเกินไปเพียงใด</div>
             <div class="awText">
                 <div class="form-check">
                     <input class="form-check-input q21" name="q21" type="radio" value="1" id="q21_1">

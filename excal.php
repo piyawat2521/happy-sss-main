@@ -31,14 +31,9 @@ header('Content-Disposition: attachment; filename="happy.xls"'); #ชื่อ�
             <td>q3</td>
             <td>q3t</td>
             <td>q4</td>
-            <td>q4_1</td>
-            <td>q4_1t</td>
-            <td>q4_2</td>
-            <td>q4_2t</td>
-            <td>q4_2_1</td>
-            <td>weight</td>
-            <td>height</td>
-            <td>waist</td>
+            <td>q4t</td>
+            <td>q5</td>
+            <td>q5t</td>
             <td>q6</td>
             <td>q7</td>
             <td>q8</td>
@@ -78,14 +73,9 @@ header('Content-Disposition: attachment; filename="happy.xls"'); #ชื่อ�
                 <td><?= $num["q3"] ?></td>
                 <td><?= $num["q3t"] ?></td>
                 <td><?= $num["q4"] ?></td>
-                <td><?= $num["q4_1"] ?></td>
-                <td><?= $num["q4_1t"] ?></td>
-                <td><?= $num["q4_2"] ?></td>
-                <td><?= $num["q4_2t"] ?></td>
-                <td><?= $num["q4_2_1"] ?></td>
-                <td><?= $num["weights"] ?></td>
-                <td><?= $num["height"] ?></td>
-                <td><?= $num["waist"] ?></td>
+                <td><?= $num["q4t"] ?></td>
+                <td><?= $num["q5"] ?></td>
+                <td><?= $num["q5t"] ?></td>
                 <td><?= $num["q6"] ?></td>
                 <td><?= $num["q7"] ?></td>
                 <td><?= $num["q8"] ?></td>

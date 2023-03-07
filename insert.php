@@ -5,36 +5,22 @@ include 'config/connect.php';
 $dateTimer = date("d/m/") . (date("Y") + 543) . date("-H:i:s");
 $sess = 111;
 //echo "ll" . $_POST["q3t"];
-if (empty($_POST["q4_1"])) {
-    $q4_1 = 0;
-} else {
-    $q4_1 = $_POST["q4_1"];
-}
 if (empty($_POST["q3t"])) {
     $q3_t = "";
 } else {
     $q3_t = $_POST["q3t"];
 }
-if (empty($_POST["q4_1t"])) {
-    $q4_1t = "";
+if (empty($_POST["q4t"])) {
+    $q4t = "";
 } else {
-    $q4_1t = $_POST["q4_1t"];
+    $q4t = $_POST["q4t"];
 }
-if (empty($_POST["q4_2t"])) {
-    $q4_2t = "";
+if (empty($_POST["q5t"])) {
+    $q5t = "";
 } else {
-    $q4_2t = $_POST["q4_2t"];
+    $q5t = $_POST["q5t"];
 }
-if (empty($_POST["q4_2"])) {
-    $q4_2 = "";
-} else {
-    $q4_2 = $_POST["q4_2"];
-}
-if (empty($_POST["q4_2_1"])) {
-    $q4_2_1 = "";
-} else {
-    $q4_2_1 = $_POST["q4_2_1"];
-}
+
 
 $numData = array("", "0", "25", "50", "75", "100");
 
@@ -158,8 +144,8 @@ if ($bmi >= 0 and $bmi <= 18.4) {
 $dataId = 0;
 
 try {
-    $stmt = $coon->prepare(" INSERT INTO data_all(data_id,sex, age, q3, q3t, q4, q4_1, q4_1t, q4_2, q4_2t,q4_2_1, weights, height, waist, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, date_time, code) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
-    $stmt->execute([$dataId, $_POST["sex"], $_POST["age"], $_POST["q3"], $q3_t, $_POST["q4"], $q4_1, $q4_1t, $q4_2, $q4_2t, $q4_2_1, $_POST["weight"], $_POST["height"], $_POST["waist"], $_POST["q6"], $_POST["q7"], $_POST["q8"], $_POST["q9"], $_POST["q10"], $_POST["q11"], $_POST["q12"], $_POST["q13"], $_POST["q14"], $_POST["q15"], $_POST["q16"], $_POST["q17"], $_POST["q18"], $_POST["q19"], $_POST["q20"], $_POST["q21"], $dateTimer, $sess]);
+    $stmt = $coon->prepare(" INSERT INTO data_all(data_id,sex, age, q3, q3t, q4, q4t, q5, q5t, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, date_time, code) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+    $stmt->execute([$dataId, $_POST["sex"], $_POST["age"], $_POST["q3"], $q3_t, $_POST["q4"], $q4t, $_POST["q5"], $q5t, $_POST["q6"], $_POST["q7"], $_POST["q8"], $_POST["q9"], $_POST["q10"], $_POST["q11"], $_POST["q12"], $_POST["q13"], $_POST["q14"], $_POST["q15"], $_POST["q16"], $_POST["q17"], $_POST["q18"], $_POST["q19"], $_POST["q20"], $_POST["q21"], $dateTimer, $sess]);
 
     if (empty($stmt)) {
         echo "No Insert";
@@ -210,7 +196,7 @@ try {
             <div class="sumShowText">
                 <?= $sumText ?>
             </div>
-            <div class="headText">
+            <!-- <div class="headText">
                 <h4>ค่า BMI ของคุณคือ</h4>
             </div>
             <hr>
@@ -218,7 +204,7 @@ try {
             <div class="sumShowText">
                 <hr>
                 <?= $bmi_text ?><br>เพศที่ท่านระบุ : <?= $sexTh ?> | เส้นรอบเอวของท่านคือ <?= round($wt)  ?> cm <?= $wt_t ?>
-            </div>
+            </div> -->
         </div>
 
     </div>
